@@ -1,0 +1,37 @@
+#include   <stdlib.h>
+#include   <string.h>
+#include   <locale.h>
+#include   <stdio.h>
+
+int main(){
+
+    setlocale(LC_ALL,"portuguese");
+
+    float percentual_reajuste, salario, salario_reajustado, maior_salario;
+
+    int cont;
+
+        maior_salario = 0;
+
+        printf("Percentual de reajuste: ");
+        scanf("%f", &percentual_reajuste);
+
+    for (cont = 1; cont <= 5; cont++)
+
+    {
+
+        printf("Salario: ");
+        scanf("%f", &salario);
+
+        salario_reajustado = salario + (salario * (percentual_reajuste / 100));
+
+    if (salario_reajustado > maior_salario)
+        maior_salario = salario_reajustado;
+        {
+        printf("O salario reajustado é: %.2f\n", salario_reajustado);
+        }
+    }
+        printf("O maior salario reajustado é: %.2f\n", maior_salario);
+
+    }
+
