@@ -10,7 +10,7 @@ int main(){
 int num;
 do
 {
-printf ("Digite um número: ");
+printf ("Digite um nÃºmero: ");
 scanf("%d",&num);
 if (num!=0 && num!=9)
 {

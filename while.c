@@ -8,12 +8,12 @@ int main(){
 setlocale(LC_ALL,"portuguese");
 
 int num;
-printf ("Digite um número: ");
+printf ("Digite um nÃºmero: ");
 scanf("%d",&num);
 while (num!=0)
 {
-printf ("O número lido foi = %d\n\n",num);
-printf ("Digite um número: ");
+printf ("O nÃºmero lido foi = %d\n\n",num);
+printf ("Digite um nÃºmero: ");
 scanf("%d",&num);
 }
 
