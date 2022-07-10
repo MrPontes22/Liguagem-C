@@ -34,7 +34,7 @@ contfunc++;
 
 printf ("TOT salário bruto : %.2f \n",totbruto);
 printf ("TOT salário líquido : %.2f \n",totliquido);
-printf ("TOT salário líquido : %.2f \n",totimposto);
+printf ("TOT imposto líquido : %.2f \n",totimposto);
 
 return 0;
 }
